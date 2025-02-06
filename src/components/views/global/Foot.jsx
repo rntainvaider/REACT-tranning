@@ -1,7 +1,14 @@
 import React from "react";
+import css from "../../../styles/styles.css";
+
+const {FooterContainer} = css;
 
 const Foot = () => {
-    <React.Fragment></React.Fragment>
+    return (
+        <React.Fragment>
+            <FooterContainer></FooterContainer>
+        </React.Fragment>
+    )
 };
 
 
